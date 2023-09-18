@@ -81,6 +81,18 @@
   margin-bottom: 40px;
 }
 
+/*ERROR 404*/
+.imagenError {
+  width: 100%;
+}
+
+.btnInicio {
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin: 5px;
+}
+
 .contenedorProductos {
   text-align: center;
   margin: 4px;
