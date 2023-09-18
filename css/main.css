@@ -87,7 +87,8 @@
   margin-bottom: 20px;
   background-color: rgb(209, 209, 209);
 }
-.contenedorProductos .seccionProductos {
+
+.seccionProductos {
   background-color: blue;
   color: rgb(168, 168, 168);
   text-align: center;
@@ -96,7 +97,8 @@
   margin-right: 50px;
   font-family: sans-serif;
 }
-.contenedorProductos .descripcionCards {
+
+.descripcionCards {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
 }
