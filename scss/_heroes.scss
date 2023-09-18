@@ -1,0 +1,16 @@
+
+.fondoRegistrarse {
+    background-color: rgb(191, 201, 248);
+    margin: 30px;
+    border: 1px solid blue;
+    .logoRegistro {
+        width: 330px;
+      }
+  }
+
+  .btnRegistro {
+    background-color: $secondaryColor;
+    color: azure;
+    font-weight: 600;
+    margin: 5px;
+}

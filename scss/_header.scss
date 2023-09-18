@@ -1,0 +1,75 @@
+/**********HEADER************/
+
+.barraNav {
+    background-color: $mainColor;
+
+    .logoJoli {
+        width: 250px;
+    }
+}
+
+.tituloNav {
+    font-family: $mainFont;
+    color: $secondaryColor;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.btnRegistro {
+    background-color: $secondaryColor;
+    color: $white;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.contenedorInicio {
+    background-image: url(../img/bg5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.contenedorDestacados {
+    background-color: blue;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: sans-serif;
+}
+
+
+.cardImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+
+    .tituloCards {
+        font-family: $mainFont;
+        text-align: center;
+        font-size: $textoLg;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+}
+
+
+.imagenInterior {
+    width: 100%;
+    height: 350px;
+}
+
+.tituloEmpresa {
+    text-align: center;
+    color: $black;
+    text-decoration: underline;
+    font-size: $textoLg;
+}
+
+.parrafoEmpresa {
+    font-weight: 500;
+    padding: 5px;
+    margin-bottom: 40px;
+}

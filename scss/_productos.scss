@@ -1,0 +1,21 @@
+.contenedorProductos {
+    @include productosDesc;
+    background-color: $mainColor;
+    
+
+    .seccionProductos {
+        background-color: $secondaryColor;
+        color: rgb(168, 168, 168);
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: $secondaryFont;
+    }
+
+    .descripcionCards {
+        background-color: $white;
+        border-radius: 10px;
+    }
+
+}

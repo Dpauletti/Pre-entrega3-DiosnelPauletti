@@ -1,0 +1,21 @@
+// extend
+.btnRegistro{
+    background-color: $secondaryColor;
+    color: $white;
+    font-weight: 600;
+    margin: 5px;
+}
+.botones{
+    @extend .btnRegistro;
+    &:hover{
+        color: $mainColor;
+    }
+}
+
+
+//mixins
+@mixin productosDesc{
+    text-align: center;
+    margin: 4px;
+    margin-bottom: 20px;
+}

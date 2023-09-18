@@ -1,0 +1,56 @@
+/*FORMULARIO DE CONTACTO*/
+
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.seccionContacto {
+    background-color: $secondaryColor;
+    color: $mainColor;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: $secondaryFont;
+}
+
+.contenedorForm {
+    margin-bottom: 20px;
+    border-bottom: 2px solid $mainColor;
+
+    .labelFormulario {
+        display: block;
+        font-weight: bold;
+        margin: 10px 5px;
+        color: $black;
+        font-size: 20px;
+    }
+
+}
+
+input,
+textarea {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.botones {
+    background-color: $secondaryColor;
+    color: $white;
+    width: 150px;
+    font-size: $textoSm;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: inline;
+    text-transform: uppercase;
+    border-radius: 7px;
+}
+
+.contenedorIframe {
+    margin-bottom: 30px;
+}
